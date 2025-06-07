@@ -75,7 +75,7 @@ document.querySelector(".gallery").addEventListener("click", (event) => {
   const largeImageURL = imgEl.dataset.source;
 
   const instance = basicLightbox.create(`
-      <img width="1400" height="900" src="${largeImageURL}" alt="${imgEl.alt}" />
+      <img width="1112" height="640" src="${largeImageURL}" alt="${imgEl.alt}" />
     `);
 
   instance.show();
