@@ -29,7 +29,3 @@
     object-fit: cover;
     display: block;
 }
-
-.gallery-link:hover {
-    cursor: url(/images/bxs_hand-down.png), auto;
-}
